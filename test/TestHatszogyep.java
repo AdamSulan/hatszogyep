@@ -28,12 +28,12 @@ public class TestHatszogyep {
     }
     @Test
     public void testHatszogyep(){
-        double actual=hatszogyep.szamitTerulet(10);
+        double actual=hatszogyep.szamitTerulet(10,10);
         assertEquals(actual, 389.71143170299734, 0.001, "Nem 389.71143170299734-t kaptam a 10 bemenetre.");
     }
     @Test
     public void testHatszogyep2(){
-        double actual=hatszogyep.szamitTerulet(25);
-        assertEquals(actual, 2435.6964481437335, 0.001, "Nem 2435.6964481437335-t kaptam a 25 bemenetre.");
+        double actual=hatszogyep.szamitTerulet(10,20);
+        assertEquals(actual, 1169.1342951089923, 0.001, "Nem 1169.1342951089923-t kaptam a 25 bemenetre.");
     }
 }
